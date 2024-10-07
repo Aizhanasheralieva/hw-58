@@ -24,9 +24,6 @@ const Modal: React.FC<Props> = ({show, title, children, onClose}) => {
             <div className="modal-body">
               {children}
             </div>
-            {/*<div className="modal-footer">*/}
-            {/*  <button type="button" className="btn btn-secondary" onClick={onClose}></button>*/}
-            {/*</div>*/}
           </div>
         </div>
       </div>
